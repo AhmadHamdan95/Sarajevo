@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.heroSection{
+    background-color: #4d76ff;
+    text-align: center;
+    background-image: url(../img/heroImg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 55px;
+    box-sizing: border-box;
+}
+.heroSection nav{
+    padding-left: 99px;
+    padding-right: 99px;
+    margin-bottom: 250px;
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 16px;
+}
+.navMenu{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.navMenu ul{
+    list-style-type: none;
+}
+.navMenu ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.navMenu ul li:last-child{
+    margin-right: 0px;
+}
+.navMenuItems{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.navMenuItems:hover{
+    color: #4c76ff;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.bigLogo{
+    width: 243px;
+    margin: auto;
+}
+.heroSection h1{
+    font-size: 48px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.heroSection h1 span{
+    color: #4c76ff;
+}
+.heroSection p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.heroSocial{
+    margin-top: 110px;
+}
+.heroSocial a{
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 15px
+}
+.accusanSection{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 110px;
+    box-sizing: border-box;
+}
+.accusanText{
+    padding: 80px 280px;
+    text-align: center;
+    font-size: 20px;
+}
+.accusanContainer{
+    width: 1090px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.leftAccusanMenu,
+.iphoneImg,
+.rightAccusanMenu{
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.iphoneImg{
+    text-align: center;
+}
+.accusanItemIcon{
+    float: left;
+    width: 80px;
+    color: #c4c3c4;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.accusanItemText{
+    float: left;
+    width: calc(100% - 80px);
+    color: #363436;
+}
+.accusanItemText{
+    line-height: 25px;
+}
+.accusanItem{
+    padding-bottom: 20px;
+}
+.accusanContainer .accusanItem:hover{
+    background-color: #ecebdc;
+    color: #363436;
+}
+.infoSection{
+    background-color: #010305;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.infoContainer{
+    width: 1100px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.mainInfo{
+    float: left;
+    width: 394px;
+    padding-right: 84px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.infologo{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.subscribe{
+    float: left;
+    width: 333px;
+    padding-right: 84px;
+    color: #cccdcd;
+    font-size: 16px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.subscribe input{
+    width: 250px;
+    height: 40px;
+    background-color: #010305;
+    margin: 34px 0px;
+}
+.infoGrids{
+    float: left;
+    width: calc(100% - 727px);
+    color: #cccdcd;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.infoGrids h2{
+    padding-left: 35px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.infoGrid{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.infoGrid ul{
+    list-style-type: none;
+}
+.infoGrid ul li{
+    margin-bottom: 10px;
+}
+.infoGrid ul li a{
+    text-decoration: none;
+    color: #cccdcd;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.infoGrid ul li a:hover{
+    color: #4c76ff;
+    transition-duration: 0.4s;
+}
